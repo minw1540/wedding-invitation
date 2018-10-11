@@ -1,0 +1,77 @@
+
+/**
+ * 테블릿과 pc 화면은 어떻게 맞출까요?
+ */
+
+.intro-container {
+    width: 100%;
+    height: 100%;
+}
+
+.intro-main-img {
+    width: 100%;
+    height: 70%;
+    background-image: url('../../../assets/images/intro-main.jpeg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-attachment: fixed;
+    background-size : auto 100%;
+}
+
+.intro-into-area {
+    width: 100%;
+    height: 30%;
+}
+
+.intro-name-box {
+    width: 100%;
+    height: 45px;
+    position: relative;
+}
+
+.intro-name-bundle {
+    width: 100%;
+    height: 100%;
+}
+
+.intro-name-box-fingerprint-img {
+    width: 125px;
+    position: absolute;
+    top: -52px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.intro-name {
+    display: inline-block;
+    line-height: 45px;
+    font-size: 1.2em;
+    color: #242121;
+    font-weight: bold;
+}
+
+.intro-name.left {
+    margin-right: 61px;
+}
+
+.intro-name.right {
+    margin-left: 61px;
+}
+
+.intro-date {
+    width: 100%;
+    height: auto;
+    font-size: 0.9em;
+    color: #873939;
+    margin-top: 35px;
+}
+
+.intro-location {
+    width: 100%;
+    height: auto;
+    font-size: 0.9em;
+    color: #242121;
+    margin-top: 15px;
+}
