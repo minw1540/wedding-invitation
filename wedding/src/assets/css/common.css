@@ -1,0 +1,54 @@
+.pointer {
+    cursor: pointer;
+}
+
+.white-bg {
+    background: #fff;
+}
+
+.section-container {
+    width: 100%;
+    height: 100%;
+}
+
+.section-separation-area {
+    width: 100%;
+    height: 15%;
+    position: relative;
+    margin: 50px 0;
+}
+
+.section-separation-img {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/separation-img.jpeg');
+    background-repeat: no-repeat;
+    background-size : 100% auto;
+    background-position: 100% -1142px;
+    border-radius: 8px;
+}
+
+.section-separation-bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #555;
+    opacity: 0.6;
+    border-radius: 8px;
+}
+
+.section-separation-title {
+    width: 100%;
+    height: 1.5em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5em;
+}

@@ -80,11 +80,3 @@ button {
 input {
     -webkit-appearance: none;
 }
-
-.pointer {
-    cursor: pointer;
-}
-
-.white-bg {
-    background: #fff;
-}

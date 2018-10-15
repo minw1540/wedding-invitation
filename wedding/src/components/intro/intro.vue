@@ -1,5 +1,5 @@
 <template>
-    <div class="intro-container">
+    <div class="section-container">
 
         <div class="intro-main-img"></div>
 
