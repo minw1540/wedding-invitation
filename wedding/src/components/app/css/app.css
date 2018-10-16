@@ -5,11 +5,3 @@
     background: rgba(255, 240, 245, 0.4);
     overflow: auto;
 }
-
-.app-layer {
-    width: 100%;
-    height: 100%;
-    max-width: 970px;
-    min-width: 320px;
-    display: inline-block;
-}

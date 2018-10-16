@@ -3,7 +3,7 @@
 
         <div class="intro-main-img"></div>
 
-        <div class="intro-into-area white-bg">
+        <div class="intro-into-area">
             <div class="intro-name-box">
                 <div class="intro-name-bundle">
                     <img class="intro-name-box-fingerprint-img" src="../../assets/images/fingerprint.png" />

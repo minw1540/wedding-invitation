@@ -1,9 +1,7 @@
 <template>
     <div id="app" class="app-container">
-        <div class="app-layer">
-            <Intro></Intro>
-            <Invitation></Invitation>
-        </div>
+        <Intro></Intro>
+        <Invitation></Invitation>
     </div>
 </template>
 

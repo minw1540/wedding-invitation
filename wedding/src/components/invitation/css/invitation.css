@@ -1,0 +1,198 @@
+.invitation-title {
+    width: 100%;
+    height: auto;
+    font-size: 2.5em;
+    color: #A1A1A1;
+}
+
+.invitation-contents {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 1em;
+    color: #A1A1A1;
+    white-space: pre-line;
+    word-break: break-all;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+
+.invitation-name-horizontal-box {
+    width: 100%;
+    height: auto;
+}
+
+.invitation-name-horizontal-bundle {
+    width: 50%;
+    height: 50px;
+    display: inline-block;
+}
+
+.invitation-name-horizontal-bundle:nth-of-type(odd) {
+    padding-right: 35px;
+}
+
+.invitation-name-horizontal-bundle:nth-of-type(even) {
+    padding-left: 35px;
+}
+
+.invitation-name-horizontal-part {
+    width: auto;
+    height: 100%;
+    float: left;
+}
+
+.invitation-name-horizontal-text{
+    font-size: 1.3em;
+    line-height: 50px;
+}
+
+.invitation-name-horizontal-position {
+    color: #A1A1A1;
+    margin-right: 35px;
+}
+
+.invitation-phone-horizontal-part {
+    width: auto;
+    height: 100%;
+    float: right;
+}
+
+.invitation-phone-horizontal-tag {
+    width: 50px;
+    height: 100%;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.invitation-phone-horizontal-call {
+    margin-right: 35px;
+    background: #C3C4BF;
+}
+
+.invitation-phone-horizontal-sms {
+    background: #656565;
+}
+
+.invitation-phone-horizontal-icon {
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.invitation-separation-line-box {
+    width: 100%;
+    height: 45px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.invitation-separation-line {
+    width: 2px;
+    height: 100%;
+    display: inline-block;
+    background: rgba(161, 161, 161, 0.4);
+    border-radius: 25px;
+}
+
+.invitation-name-vertical-box {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.invitation-separation-love-box {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.invitation-separation-love {
+    color: rgba(161, 161, 161, 0.4);
+}
+
+.invitation-name-vertical-bundle {
+    width: 50%;
+    height: auto;
+    display: inline-block;
+}
+
+.invitation-name-vertical-bundle:nth-of-type(odd) {
+    padding-right: 35px;
+}
+
+.invitation-name-vertical-bundle:nth-of-type(even) {
+    padding-left: 35px;
+}
+
+
+.invitation-name-vertical-bundle-title {
+    width: 100%;
+    height: auto;
+    font-size: 1.1em;
+    line-height: 50px;
+    color: #A1A1A1;
+    margin-bottom: 15px;
+}
+
+.invitation-name-vertical-part-outer {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 25px;
+}
+
+.invitation-name-vertical-part-outer:last-of-type {
+    margin-bottom: 0px;
+}
+
+.invitation-name-vertical-part {
+    width: auto;
+    height: 100%;
+    float: left;
+}
+
+.invitation-name-vertical-text {
+    font-size: 1.1em;
+    line-height: 40px;
+}
+
+.invitation-name-vertical-position {
+    color: #585858;
+    margin-right: 35px;
+}
+
+.invitation-phone-vertical-part {
+    width: auto;
+    height: 100%;
+    float: right;
+}
+
+.invitation-phone-vertical-tag {
+    width: 40px;
+    height: 100%;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.invitation-phone-vertical-call {
+    margin-right: 25px;
+    background: #C3C4BF;
+}
+
+.invitation-phone-vertical-sms {
+    background: #656565;
+}
+
+.invitation-phone-vertical-icon {
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    color: #fff;
+    font-size: 20px;
+}

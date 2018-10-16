@@ -2,7 +2,7 @@ import Intro from '../../intro/intro.vue';
 import Invitation from '../../invitation/invitation.vue';
 
 export default {
-    name: 'app',
+    name: 'App',
     components: {
         Intro,
         Invitation,

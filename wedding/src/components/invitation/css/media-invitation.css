@@ -1,0 +1,55 @@
+/*태블릿*/
+@media (max-width: 768px) {
+    .invitation-name-horizontal-bundle {
+        width: 100%;
+    }
+
+    .invitation-name-horizontal-bundle:nth-of-type(odd) {
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+
+    .invitation-name-horizontal-bundle:nth-of-type(even) {
+        padding-right: 35px;
+        padding-left: 35px;
+    }
+
+    .invitation-name-vertical-part-outer{
+        height: 80px;
+    }
+
+    .invitation-name-vertical-part {
+        width: 100%;
+        height: 40px;
+    }
+
+    .invitation-phone-vertical-part {
+        width: 100%;
+        height: 40px;
+    }
+}
+
+/*모바일*/
+@media (max-width: 375px) {
+    .invitation-name-horizontal-bundle {
+        width: 100%;
+    }
+
+    .invitation-name-horizontal-bundle:nth-of-type(odd) {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .invitation-name-horizontal-bundle:nth-of-type(even) {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .invitation-name-vertical-bundle:nth-of-type(odd) {
+             padding-right: 0px;
+    }
+
+    .invitation-name-vertical-bundle:nth-of-type(even) {
+             padding-left: 0px;
+    }
+}
