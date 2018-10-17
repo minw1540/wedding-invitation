@@ -22,17 +22,12 @@ time, mark, audio, video {
     font-family: 'Noto Sans', sans-serif;
     box-sizing: border-box;
     color: #242121;
+    line-height: 1.2;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
     display: block;
-}
-
-html, body {
-    width: 100%;
-    height: 100%;
-    line-height: 1.2;
 }
 
 ol, ul {
