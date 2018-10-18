@@ -11,9 +11,8 @@
     border-radius: 8px;
     background-image: url('../../../assets/images/separation-img.jpeg');
     background-repeat: no-repeat;
-    background-position: 50% 0;
-    background-attachment: fixed;
-    background-size : auto 100%;
+    background-size : 100% auto;
+    background-position: 0 85%;
 }
 
 .section-separation-bg {

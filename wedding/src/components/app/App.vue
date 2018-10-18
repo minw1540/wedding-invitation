@@ -1,8 +1,7 @@
 <template>
     <div id="app" class="app-container">
-
-        <div class="app-main-img-area">
-            <div class="app-main-img-box">
+        <div class="app-main-img-area" :style="{height : windowHeight * 0.7 + 'px'}">
+            <div class="app-main-img-box" :style="{height : windowHeight * 0.7 + 'px'}">
                 <img class="app-main-img" src="../../assets/images/intro-main.jpeg" />
             </div>
         </div>

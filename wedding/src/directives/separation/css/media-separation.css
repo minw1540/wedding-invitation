@@ -1,8 +1,0 @@
-/*태블릿*/
-@media (max-width: 768px) {
-    .section-separation-img {
-        background-attachment: initial;
-        background-size : 100% auto;
-        background-position: 0 85%;
-    }
-}

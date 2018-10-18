@@ -10,4 +10,3 @@
 
 <script type="text/javascript" src="./js/separation.js"></script>
 <style type="text/css" src="./css/separation.css"></style>
-<style type="text/css" src="./css/media-separation.css"></style>
