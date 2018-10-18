@@ -1,7 +1,7 @@
 <template>
     <div class="section-container">
 
-        <div class="intro-main-img"></div>
+        <!-- <div class="intro-main-img"></div> -->
 
         <div class="intro-into-area">
             <div class="intro-name-box">

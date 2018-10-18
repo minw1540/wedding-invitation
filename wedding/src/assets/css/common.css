@@ -1,3 +1,7 @@
+body {
+    background: #FEF9FA;
+}
+
 .section-container {
     width: 100%;
     height: 100%;
@@ -6,6 +10,7 @@
     display: inline-block;
     position: relative;
     padding-bottom: 35px;
+    background: #FEF9FA;
 }
 
 .pointer {
