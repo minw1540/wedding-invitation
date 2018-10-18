@@ -8,8 +8,8 @@
 .section-separation-img {
     width: 100%;
     height: 100%;
-    background-image: url('../../../assets/images/separation-img.jpeg');
     border-radius: 8px;
+    background-image: url('../../../assets/images/separation-img.jpeg');
     background-repeat: no-repeat;
     background-position: 50% 0;
     background-attachment: fixed;
