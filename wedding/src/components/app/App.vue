@@ -3,7 +3,7 @@
 
         <div class="app-main-img-area">
             <div class="app-main-img-box">
-                <div class="app-main-img"></div>
+                <img class="app-main-img" src="../../assets/images/intro-main.jpeg" />
             </div>
         </div>
 
