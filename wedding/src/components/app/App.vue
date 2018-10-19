@@ -8,6 +8,7 @@
 
         <Intro></Intro>
         <Invitation></Invitation>
+        <Gallery></Gallery>
     </div>
 </template>
 

@@ -9,8 +9,8 @@ body {
     min-width: 320px;
     display: inline-block;
     position: relative;
-    padding-bottom: 35px;
     background: #FEF9FA;
+    padding-bottom: 35px;
 }
 
 .pointer {

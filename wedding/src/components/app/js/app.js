@@ -1,11 +1,13 @@
 import Intro from '../../intro/intro.vue';
 import Invitation from '../../invitation/invitation.vue';
+import Gallery from '../../gallery/gallery.vue';
 
 export default {
     name: 'App',
     components: {
         Intro,
         Invitation,
+        Gallery,
     },
     data() {
         return {

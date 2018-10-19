@@ -1,0 +1,27 @@
+.gallery-title {
+    width: 100%;
+    height: auto;
+    font-size: 2.5em;
+    color: #A1A1A1;
+}
+
+.gallery-img-area {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 35px;
+    padding: 0 15px;
+}
+
+.gallery-img-box {
+    width: 33.333%;
+    height: auto;
+    display: inline-block;
+    margin-bottom: 25px;
+    padding: 5px;
+}
+
+.gallery-img {
+    width: 100%;
+    border-radius: 25px;
+}

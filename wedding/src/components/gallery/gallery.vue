@@ -1,0 +1,29 @@
+<template>
+    <div class="section-container">
+        <Separation :name="'Gallery'"></Separation>
+        <div class="gallery-title nanum-pen-font">Photo Gallery</div>
+
+        <ul class="gallery-img-area">
+            <li class="gallery-img-box pointer">
+                <img class="gallery-img" src="../../assets/images/gallery/1.jpeg" />
+            </li>
+            <li class="gallery-img-box pointer">
+                <img class="gallery-img" src="../../assets/images/gallery/1.jpeg" />
+            </li>
+            <li class="gallery-img-box pointer">
+                <img class="gallery-img" src="../../assets/images/gallery/1.jpeg" />
+            </li>
+            <li class="gallery-img-box pointer">
+                <img class="gallery-img" src="../../assets/images/gallery/1.jpeg" />
+            </li>
+            <li class="gallery-img-box pointer">
+                <img class="gallery-img" src="../../assets/images/gallery/1.jpeg" />
+            </li>
+            <li class="gallery-img-box pointer">
+                <img class="gallery-img" src="../../assets/images/gallery/1.jpeg" />
+            </li>
+        </ul>
+    </div>
+</template>
+<script type="text/javascript" src="./js/gallery.js"></script>
+<style type="text/css" src="./css/gallery.css"></style>
