@@ -1,0 +1,7 @@
+/*모바일*/
+@media (max-width: 375px) {
+    .gallery-img-box {
+        width: 50%;
+        margin-bottom: 5px;
+    }
+}
