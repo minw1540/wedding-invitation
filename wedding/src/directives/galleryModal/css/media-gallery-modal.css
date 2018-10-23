@@ -1,0 +1,6 @@
+/*태블릿*/
+@media (max-width: 768px) {
+    .gallery-modal-area {
+        padding: 35% 0;
+    }
+}

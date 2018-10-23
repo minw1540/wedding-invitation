@@ -35,6 +35,7 @@
                 <img class="gallery-img" src="../../assets/images/gallery/1.jpeg" />
             </li>
         </ul>
+        <GalleryModal></GalleryModal>
     </div>
 </template>
 <script type="text/javascript" src="./js/gallery.js"></script>

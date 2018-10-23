@@ -9,7 +9,7 @@ export default {
     },
     data() {
         return {
-            photoList : [],
+            photoId : 0,
         };
     },
     methods : {
@@ -24,18 +24,5 @@ export default {
     },
     created() {
         return;
-    },
-    mounted() {
-        this.$nextTick(function () {
-            let children = this.$refs.galleryArea.children;
-
-            for(let index = 0; index < children.length; index++){
-                // console.log(children[index].children[0].currentSrc);
-                this.photoList.push(children[index].children[0].currentSrc);
-            }
-
-            console.log(this.photoList);
-            return;
-        });
     }
 }

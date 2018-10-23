@@ -2,6 +2,8 @@ import Intro from '../../intro/intro.vue';
 import Invitation from '../../invitation/invitation.vue';
 import Gallery from '../../gallery/gallery.vue';
 
+// import * as _config from '../../../assets/js/common.js';
+
 export default {
     name: 'App',
     components: {
@@ -13,6 +15,7 @@ export default {
         return {
             windowHeight : 0,
             windowWidth : 0,
+            windowHeightClass : undefined,
         };
     },
     methods : {
