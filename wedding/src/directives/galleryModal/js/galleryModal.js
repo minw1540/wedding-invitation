@@ -5,6 +5,7 @@ export default {
     components : {
         Flickity
     },
+    props : ['windowHeight'],
     data() {
         return {
             flickityOptions: {
@@ -18,7 +19,6 @@ export default {
     methods : {
     },
     created() {
-        console.log(this);
         return;
     }
 };

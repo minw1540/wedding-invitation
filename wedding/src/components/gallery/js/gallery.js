@@ -10,6 +10,7 @@ export default {
     data() {
         return {
             photoId : 0,
+            windowHeight : 0,
         };
     },
     methods : {
@@ -23,6 +24,7 @@ export default {
         },
     },
     created() {
+        this.windowHeight = this.$parent.windowHeight;
         return;
-    }
+    },
 }

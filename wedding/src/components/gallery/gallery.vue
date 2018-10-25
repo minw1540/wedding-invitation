@@ -1,7 +1,7 @@
 <template>
     <div class="section-container">
-<!--         <Separation :name="'Gallery'"></Separation>
-        <div class="gallery-title nanum-pen-font">Photo Gallery</div> -->
+        <Separation :name="'Gallery'"></Separation>
+        <div class="gallery-title nanum-pen-font">Photo Gallery</div>
 
         <ul class="gallery-img-area" ref="galleryArea">
             <li class="gallery-img-box pointer"
@@ -35,7 +35,7 @@
                 <img class="gallery-img" src="../../assets/images/gallery/1.jpeg" />
             </li>
         </ul>
-        <GalleryModal></GalleryModal>
+        <GalleryModal :windowHeight="windowHeight"></GalleryModal>
     </div>
 </template>
 <script type="text/javascript" src="./js/gallery.js"></script>
