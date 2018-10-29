@@ -10,7 +10,7 @@ export default {
     data() {
         return {
             photoId : 0,
-            windowHeight : 0,
+            onModalOpen : false,
         };
     },
     methods : {
@@ -20,11 +20,13 @@ export default {
             if(typeof target === 'undefined'){
                 return;
             }
+
+            this.photoId = target;
+            this.onModalOpen = true;
             return;
         },
     },
     created() {
-        this.windowHeight = this.$parent.windowHeight;
         return;
     },
 }

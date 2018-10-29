@@ -5,11 +5,11 @@ export default {
     components : {
         Flickity
     },
-    props : ['windowHeight'],
+    props : ['photoId'],
     data() {
         return {
             flickityOptions: {
-                initialIndex: 3,
+                initialIndex: this.photoId,
                 prevNextButtons: true,
                 pageDots: true,
                 wrapAround: true,
@@ -17,6 +17,10 @@ export default {
         }
     },
     methods : {
+        onClosePhoto(){
+            this.$parent.onModalOpen = false;
+            return;
+        }
     },
     created() {
         return;

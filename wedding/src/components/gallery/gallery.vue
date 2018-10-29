@@ -1,41 +1,41 @@
 <template>
     <div class="section-container">
-        <Separation :name="'Gallery'"></Separation>
-        <div class="gallery-title nanum-pen-font">Photo Gallery</div>
+        <!-- <Separation :name="'Gallery'"></Separation> -->
+        <!-- <div class="gallery-title nanum-pen-font">Photo Gallery</div> -->
 
         <ul class="gallery-img-area" ref="galleryArea">
             <li class="gallery-img-box pointer"
-                @click="onShowPhoto"
+                @click="onShowPhoto(0)"
             >
                 <img class="gallery-img" src="../../assets/images/gallery/1.jpeg" />
             </li>
             <li class="gallery-img-box pointer"
-                @click="onShowPhoto"
+                @click="onShowPhoto(1)"
             >
                 <img class="gallery-img" src="../../assets/images/gallery/1.jpeg" />
             </li>
             <li class="gallery-img-box pointer"
-                @click="onShowPhoto"
+                @click="onShowPhoto(2)"
             >
                 <img class="gallery-img" src="../../assets/images/gallery/1.jpeg" />
             </li>
             <li class="gallery-img-box pointer"
-                @click="onShowPhoto"
+                @click="onShowPhoto(3)"
             >
                 <img class="gallery-img" src="../../assets/images/gallery/1.jpeg" />
             </li>
             <li class="gallery-img-box pointer"
-                @click="onShowPhoto"
+                @click="onShowPhoto(4)"
             >
                 <img class="gallery-img" src="../../assets/images/gallery/1.jpeg" />
             </li>
             <li class="gallery-img-box pointer"
-                @click="onShowPhoto"
+                @click="onShowPhoto(5)"
             >
                 <img class="gallery-img" src="../../assets/images/gallery/1.jpeg" />
             </li>
         </ul>
-        <GalleryModal :windowHeight="windowHeight"></GalleryModal>
+        <GalleryModal v-if="onModalOpen" :photoId="photoId"></GalleryModal>
     </div>
 </template>
 <script type="text/javascript" src="./js/gallery.js"></script>
