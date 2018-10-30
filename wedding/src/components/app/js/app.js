@@ -1,6 +1,8 @@
 import Intro from '../../intro/intro.vue';
 import Invitation from '../../invitation/invitation.vue';
 import Gallery from '../../gallery/gallery.vue';
+import Map from '../../map/map.vue';
+import Comment from '../../comment/comment.vue';
 
 
 export default {
@@ -9,6 +11,8 @@ export default {
         Intro,
         Invitation,
         Gallery,
+        Map,
+        Comment
     },
     data() {
         return {

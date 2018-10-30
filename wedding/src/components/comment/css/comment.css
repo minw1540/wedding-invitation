@@ -1,0 +1,11 @@
+.comment-title-box {
+    width: 100%;
+    height: auto;
+    padding-left: 15px;
+}
+
+.comment-title {
+    text-align: left;
+    font-size: 2em;
+    color: #A1A1A1;
+}

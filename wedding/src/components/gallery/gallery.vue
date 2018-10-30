@@ -1,7 +1,7 @@
 <template>
     <div class="section-container">
-        <!-- <Separation :name="'Gallery'"></Separation> -->
-        <!-- <div class="gallery-title nanum-pen-font">Photo Gallery</div> -->
+        <Separation :name="'Gallery'"></Separation>
+        <div class="gallery-title nanum-pen-font">Photo Gallery</div>
 
         <ul class="gallery-img-area" ref="galleryArea">
             <li class="gallery-img-box pointer"
