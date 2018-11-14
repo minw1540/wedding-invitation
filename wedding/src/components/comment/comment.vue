@@ -1,10 +1,45 @@
 <template>
     <div class="section-container">
-        <!-- <Separation :name="'방명록'"></Separation> -->
+        <Separation :name="'방명록'"></Separation>
         <div class="comment-title-box">
-            <div class="comment-title nanum-pen-font">신랑 신부에게</div>
+            <div class="comment-title nanum-pen-font">신랑, 신부에게</div>
             <div class="comment-title nanum-pen-font">축하인사를 남겨주세요.</div>
         </div>
+
+		<ul class="comment-input-area">
+			<li class="comment-input-bundle">
+				<div class="comment-input-item-name">
+					성 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 함 :
+				</div>
+				<div class="comment-input-item-box">
+					<input class="comment-input" />
+				</div>
+			</li>
+
+			<li class="comment-input-bundle">
+				<div class="comment-input-item-name">
+					비밀번호 :
+				</div>
+				<div class="comment-input-item-box">
+					<input class="comment-input" />
+				</div>
+			</li>
+			<li class="comment-input-bundle comment-textarea-bundle">
+				<div class="comment-input-item-name">
+					메 시 지 :
+				</div>
+				<div class="comment-input-item-box">
+					<textarea class="comment-input comment-textarea" />
+				</div>
+			</li>
+		</ul>
+
+		<div class="comment-send-btn-box">
+			<button class="comment-send-btn pointer">
+				축하 메시지 남기기
+			</button>
+		</div>
+
     </div>
 </template>
 <script type="text/javascript" src="./js/comment.js"></script>
