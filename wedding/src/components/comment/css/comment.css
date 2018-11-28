@@ -73,3 +73,10 @@
 	border-radius: 10px;
 	color: #fff;
 }
+
+.comment-list-area {
+	width: 100%;
+	height: auto;
+	margin-top: 45px;
+	padding: 0 10px;
+}
