@@ -1,11 +1,13 @@
 import Separation from '../../../directives/separation/separation.vue';
 import CommentItem from '../../commentItem/commentItem.vue';
+import Alert from '../../../directives/alert/alert.vue';
 
 export default {
     name: 'Comment',
     components: {
         Separation,
 		CommentItem,
+		Alert
     },
     data() {
         return {
@@ -19,6 +21,7 @@ export default {
     },
     methods : {
 		onSendComment() {
+
 			let name = this.userInput.name.trim();
 			let pwd = this.userInput.pwd.trim();
 			let content = this.userInput.content.trim();

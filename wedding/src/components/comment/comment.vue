@@ -1,5 +1,6 @@
 <template>
     <div class="section-container">
+		<Alert :text="'안녕하세요'" :isOpen="false"></Alert>
         <Separation :name="'방명록'"></Separation>
         <div class="comment-title-box">
             <div class="comment-title nanum-pen-font">신랑, 신부에게</div>
@@ -13,6 +14,7 @@
 				</div>
 				<div class="comment-input-item-box">
 					<input class="comment-input"
+						type="text"
 						v-model="userInput.name"
 					/>
 				</div>
@@ -24,6 +26,7 @@
 				</div>
 				<div class="comment-input-item-box">
 					<input class="comment-input"
+						type="password"
 						v-model="userInput.pwd"
 					/>
 				</div>
@@ -48,18 +51,17 @@
 			</button>
 		</div>
 
-			<transition-group
-				name="slideDown"
-				tag="ul"
-				class="comment-list-area"
-			>
-				<commentItem
-					v-for="(item, index) in commentList"
-					v-bind:key="index"
-					:commentItem="item"
-				></commentItem>
-			</transition-group>
-
+		<transition-group
+			name="slideDown"
+			tag="ul"
+			class="comment-list-area"
+		>
+			<commentItem
+				v-for="(item, index) in commentList"
+				v-bind:key="index"
+				:commentItem="item"
+			></commentItem>
+		</transition-group>
     </div>
 </template>
 <script type="text/javascript" src="./js/comment.js"></script>

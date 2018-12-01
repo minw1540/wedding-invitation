@@ -3,13 +3,18 @@ export default {
     props : ['commentItem'],
 	data() {
         return {
-			isDelete : false
+			isDelete : false,
+			userInputPwd : ''
 		};
     },
     methods : {
 		deleteComment() {
-			console.log(this.isDelete);
+			this.isDelete = true;
 			return;
 		},
+		deleteCommentCancel() {
+			this.isDelete = false;
+			return;
+		}
 	}
 };
