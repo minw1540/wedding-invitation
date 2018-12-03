@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 /**
  * [DB 데이터베이스 설정 정보 반환 함수]
  * @param {[type]} db [사용할 데이터베이스]

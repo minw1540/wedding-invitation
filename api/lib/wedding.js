@@ -8,9 +8,6 @@ exports.addNewComment = function (param, callback) {
 
 	var sql = '';
 	sql = 'SELECT * FROM comment;';
-	console.log(1111);
-	console.log(process.env.DB_HOST);
-	console.log(1111);
 	db.query(sql, 'wedding', function(error, result) {
 
         if(error) {
