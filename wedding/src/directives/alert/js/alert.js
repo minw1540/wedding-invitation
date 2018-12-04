@@ -1,9 +1,9 @@
 export default {
     name : 'Alert',
-    props : ['text', 'isOpen'],
+    props : ['text'],
     methods : {
 		closeAlert() {
-			console.log(this);
+			this.$parent.onCloseAlertModal();
 			return;
 		}
     },

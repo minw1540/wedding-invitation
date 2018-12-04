@@ -1,6 +1,6 @@
 <template>
     <div class="section-container">
-		<Alert :text="'안녕하세요'" :isOpen="false"></Alert>
+		<Alert v-if="alertModal.isOpen" :text="alertModal.text"></Alert>
         <Separation :name="'방명록'"></Separation>
         <div class="comment-title-box">
             <div class="comment-title nanum-pen-font">신랑, 신부에게</div>

@@ -2,7 +2,7 @@
 	<div class="alert-modal-container">
 		<div class="alert-contents-area">
 			<div class="alert-text">
-				안녕하세요?
+				{{ text }}
 			</div>
 
 			<div class="alert-btn-box">

@@ -17,6 +17,10 @@ export default {
 				content : '',
 			},
 			commentList : [],
+			alertModal : {
+				test : '',
+				isOpen :  false
+			}
 		};
     },
     methods : {
@@ -27,17 +31,17 @@ export default {
 			let content = this.userInput.content.trim();
 
 			if(name === ''){
-				alert('성함을 입력해주세요.');
+				this.onOpenAlertModal('성함을 입력해주세요.');
 				return;
 			}
 
 			if(pwd === ''){
-				alert('비밀번호를 입력해주세요.');
+				this.onOpenAlertModal('비밀번호를 입력해주세요.');
 				return;
 			}
 
 			if(content === ''){
-				alert('메시지를 입력해주세요.');
+				this.onOpenAlertModal('메시지를 입력해주세요.');
 				return;
 			}
 
@@ -56,6 +60,20 @@ export default {
 			};
 			return;
 		},
+		onOpenAlertModal(text){
+
+			if(typeof text === 'undefined'){
+				return;
+			}
+
+			this.alertModal.text = text;
+			this.alertModal.isOpen = true;
+			return;
+		},
+		onCloseAlertModal(){
+			this.alertModal.isOpen = false;
+			return;
+		}
     },
     created() {
         return;

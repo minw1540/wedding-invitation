@@ -1,5 +1,4 @@
 .alert-modal-container {
-	display: none;
 	width: 100%;
 	height: 100%;
 	position: fixed;
@@ -8,9 +7,11 @@
 	z-index: 99999;
 	background: rgba(153,153,153,0.7);
 	padding: 65px 20px 0 20px;
+	text-align: center;
 }
 
 .alert-contents-area {
+	display: inline-block;
 	width: 100%;
     height: auto;
     max-width: 500px;
