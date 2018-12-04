@@ -2,10 +2,9 @@ var express = require('express');
 var wedding   = require('../lib/wedding');
 var router = express.Router();
 
-router.get('/sendComment', function(req, res, next) {
-	var param = {
-		'test' : 1
-	};
+router.post('/sendComment', function(req, res, next) {
+
+	var param = req.body;
 
 	wedding.addNewComment(param, function (err, result) {
 		if(err) {

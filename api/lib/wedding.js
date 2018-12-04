@@ -8,6 +8,7 @@ exports.addNewComment = function (param, callback) {
 
 	var sql = '';
 	sql = 'SELECT * FROM comment;';
+	
 	db.query(sql, 'wedding', function(error, result) {
 
         if(error) {
