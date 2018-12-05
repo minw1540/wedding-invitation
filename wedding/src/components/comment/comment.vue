@@ -57,8 +57,8 @@
 			class="comment-list-area"
 		>
 			<commentItem
-				v-for="(item, index) in commentList"
-				v-bind:key="index"
+				v-for="item in commentList"
+				v-bind:key="item.no"
 				:commentItem="item"
 			></commentItem>
 		</transition-group>
