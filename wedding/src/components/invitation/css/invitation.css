@@ -20,6 +20,7 @@
 .invitation-name-horizontal-box {
     width: 100%;
     height: auto;
+	padding: 0 20px;
 }
 
 .invitation-name-horizontal-bundle {
@@ -102,6 +103,7 @@
     width: 100%;
     height: auto;
     position: relative;
+	padding: 0 20px;
 }
 
 .invitation-separation-love-box {

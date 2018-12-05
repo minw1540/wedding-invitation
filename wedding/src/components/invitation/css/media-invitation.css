@@ -1,5 +1,12 @@
 /*태블릿*/
 @media (max-width: 768px) {
+
+	.invitation-name-horizontal-box,
+	.invitation-name-vertical-box {
+		padding: 0;
+	}
+
+
     .invitation-name-horizontal-bundle {
         width: 100%;
     }
