@@ -38,7 +38,9 @@
 						>
 							취소
 						</button>
-						<button class="comment-item-delete-confirm-btn delete pointer">
+						<button class="comment-item-delete-confirm-btn delete pointer"
+							@click="onDeleteCommentApi"
+						>
 							삭제
 						</button>
 					</div>

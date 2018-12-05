@@ -28,8 +28,23 @@ export default {
 		};
     },
     methods : {
-		onSendComment() {
+		//댓글 데이터 가져오기
+		getCommentList(){
+			_axios.get(_apiUrl + 'getCommentList')
+            .then((response) => {
 
+                let result = response.data;
+				this.commentList = result.data;
+                return;
+            })
+            .catch(() => {
+				this.onOpenAlertModal('서버에 문제가 발생되었습니다. 신랑에게 연락을 부탁드릴께요!!');
+				return;
+            });
+			return;
+		},
+		//댓글 작성
+		onSendComment() {
 			if(this.isApiCall){
 				this.onOpenAlertModal('데이터 처리중 입니다.');
 				return;
@@ -74,7 +89,11 @@ export default {
 					return;
 				}
 
-				this.commentList.unshift(userInputParam);
+				this.commentList.unshift({
+					no : result.data[0].no,
+					name : result.data[0].name,
+					content : result.data[0].content
+				});
 
 				this.userInput = {
 					name : '',
@@ -83,13 +102,14 @@ export default {
 				};
                 return;
             })
-            .catch((error) => {
+            .catch(() => {
                 this.isApiCall = false;
 				this.onOpenAlertModal('서버에 문제가 발생되었습니다. 신랑에게 연락을 부탁드릴께요!!');
                 return;
             });
 			return;
 		},
+		//alert 모달창 오픈
 		onOpenAlertModal(text){
 
 			if(typeof text === 'undefined'){
@@ -100,12 +120,14 @@ export default {
 			this.alertModal.isOpen = true;
 			return;
 		},
+		//alert 모달창 닫기
 		onCloseAlertModal(){
 			this.alertModal.isOpen = false;
 			return;
 		}
     },
     created() {
+		this.getCommentList();
         return;
     },
 }
