@@ -2,6 +2,7 @@ import Separation from '../../../directives/separation/separation.vue';
 import CommentItem from '../../commentItem/commentItem.vue';
 import Alert from '../../../directives/alert/alert.vue';
 
+import encDec from '../../../assets/js/encDec.js';
 import _axios from 'axios';
 const _apiUrl = process.env.VUE_APP_API_HOST + process.env.VUE_APP_API_PATH;
 
