@@ -9,7 +9,7 @@
         <Intro></Intro>
         <Invitation></Invitation>
         <Gallery></Gallery>
-        <!-- <Map></Map> -->
+        <Map></Map>
         <Comment></Comment>
     </div>
 </template>

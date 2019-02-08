@@ -37,6 +37,7 @@ export default {
                     return;
                 }
 
+								this.windowWidth = width;
                 this.windowHeight = window.innerHeight;
                 return;
             });
