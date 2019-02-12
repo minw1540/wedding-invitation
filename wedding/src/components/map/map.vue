@@ -7,7 +7,7 @@
 				</div>
 
 				<div class="map-area">
-					<div id="map" class="map-canvas" style="width:500px; height:500px;"></div>
+					<div ref="mapCanvas" class="map-canvas" :style="{height : windowSize.windowHeight * 0.3 + 'px', width : windowSize.windowWidth * 0.9 + 'px'}"></div>
 				</div>
     </div>
 </template>

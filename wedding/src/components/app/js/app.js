@@ -16,15 +16,17 @@ export default {
     },
     data() {
         return {
-            windowHeight : 0,
-            windowWidth : 0,
+						windowSize : {
+							windowHeight : 0,
+							windowWidth : 0,
+						},
         };
     },
     methods : {
     },
     created() {
-        this.windowWidth = window.innerWidth;
-        this.windowHeight = window.innerHeight;
+        this.windowSize.windowWidth = window.innerWidth;
+        this.windowSize.windowHeight = window.innerHeight;
         return;
     },
     mounted() {
@@ -33,12 +35,12 @@ export default {
 
                 let width = window.innerWidth;
 
-                if(width === this.windowWidth){
+                if(width === this.windowSize.windowWidth){
                     return;
                 }
 
-								this.windowWidth = width;
-                this.windowHeight = window.innerHeight;
+								this.windowSize.windowWidth = width;
+                this.windowSize.windowHeight = window.innerHeight;
                 return;
             });
         })
