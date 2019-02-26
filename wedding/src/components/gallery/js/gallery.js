@@ -3,7 +3,6 @@ import GalleryModal from '../../../directives/galleryModal/galleryModal.vue';
 
 export default {
     name: 'Gallery',
-		props : ['windowSize'],
     components: {
         Separation,
         GalleryModal,

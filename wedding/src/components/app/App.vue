@@ -8,7 +8,7 @@
 
         <Intro></Intro>
         <Invitation></Invitation>
-        <Gallery :windowSize="windowSize"></Gallery>
+        <Gallery></Gallery>
         <Map :windowSize="windowSize"></Map>
         <Comment></Comment>
     </div>

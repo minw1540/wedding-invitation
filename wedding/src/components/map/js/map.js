@@ -40,6 +40,8 @@ export default {
 
 					//지도 센터 이동
 					map.setCenter(coords);
+					map.setDraggable(false);
+					map.setZoomable(false); 
 				});
 				return;
 			},
